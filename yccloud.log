@@ -1,0 +1,245 @@
+2021-06-08 19:55:35.161  INFO 8500 --- [restartedMain] com.ex.CloudByLearnApplication           : Starting CloudByLearnApplication using Java 1.8.0_291 on DESKTOP-BJUIAVU with PID 8500 (D:\JetBrains\java\CloudByLearn\target\classes started by Exception in D:\JetBrains\java\CloudByLearn)
+2021-06-08 19:55:35.164  INFO 8500 --- [restartedMain] com.ex.CloudByLearnApplication           : No active profile set, falling back to default profiles: default
+2021-06-08 19:55:35.207  INFO 8500 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in D:\learnByYC\Java\MavenRepository\com\sun\xml\bind\jaxb-impl\2.2.3-1\jaxb-impl-2.2.3-1.jar referenced one or more files that do not exist: file:/D:/learnByYC/Java/MavenRepository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-api.jar,file:/D:/learnByYC/Java/MavenRepository/com/sun/xml/bind/jaxb-impl/2.2.3-1/activation.jar,file:/D:/learnByYC/Java/MavenRepository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jsr173_1.0_api.jar,file:/D:/learnByYC/Java/MavenRepository/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb1-impl.jar
+2021-06-08 19:55:35.207  INFO 8500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-08 19:55:35.207  INFO 8500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-08 19:55:35.258  WARN 8500 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-06-08 19:55:36.437  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-08 19:55:36.508  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interfaces.
+2021-06-08 19:55:37.211  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-06-08 19:55:37.218  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-08 19:55:37.218  INFO 8500 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-08 19:55:37.347  INFO 8500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/cloud]  : Initializing Spring embedded WebApplicationContext
+2021-06-08 19:55:37.347  INFO 8500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2140 ms
+2021-06-08 19:55:37.519  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-08 19:55:38.429  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-08 19:55:38.496  INFO 8500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-08 19:55:38.558  INFO 8500 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2021-06-08 19:55:38.851  INFO 8500 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-08 19:55:38.984  INFO 8500 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-06-08 19:55:39.640  INFO 8500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-08 19:55:39.651  INFO 8500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-08 19:55:39.745  WARN 8500 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-08 19:55:40.206  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/css/**'] with []
+2021-06-08 19:55:40.206  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/js/**'] with []
+2021-06-08 19:55:40.206  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/pics/**'] with []
+2021-06-08 19:55:40.206  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/assets/**'] with []
+2021-06-08 19:55:40.233  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@644e213, org.springframework.security.web.context.SecurityContextPersistenceFilter@77650299, org.springframework.security.web.header.HeaderWriterFilter@5af0099, org.springframework.security.web.authentication.logout.LogoutFilter@1500b38f, com.ex.filter.ValidateCodeFilter@4fa6c915, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@720b0f60, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4f724adf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3102a898, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1d237840, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6499a492, org.springframework.security.web.session.SessionManagementFilter@5ccb2bf7, org.springframework.security.web.access.ExceptionTranslationFilter@3c977cb0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@64c953d3]
+2021-06-08 19:55:40.592  INFO 8500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-08 19:55:40.632  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path '/cloud'
+2021-06-08 19:55:40.639  INFO 8500 --- [restartedMain] com.ex.CloudByLearnApplication           : Started CloudByLearnApplication in 6.071 seconds (JVM running for 7.666)
+2021-06-08 19:55:40.639  INFO 8500 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-08 19:55:40.643  INFO 8500 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-08 19:56:00.075  INFO 8500 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/cloud]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-08 19:56:00.075  INFO 8500 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-08 19:56:00.077  INFO 8500 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-06-08 19:56:04.446  WARN 8500 --- [http-nio-80-exec-9] org.apache.hadoop.util.NativeCodeLoader  : Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2021-06-08 20:01:25.786  INFO 8500 --- [Thread-19] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-08 20:01:26.347  INFO 8500 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-08 20:01:26.371  INFO 8500 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-06-08 20:01:26.390  INFO 8500 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-06-08 20:01:26.755  INFO 8500 --- [restartedMain] com.ex.CloudByLearnApplication           : Starting CloudByLearnApplication using Java 1.8.0_291 on DESKTOP-BJUIAVU with PID 8500 (D:\JetBrains\java\CloudByLearn\target\classes started by Exception in D:\JetBrains\java\CloudByLearn)
+2021-06-08 20:01:26.755  INFO 8500 --- [restartedMain] com.ex.CloudByLearnApplication           : No active profile set, falling back to default profiles: default
+2021-06-08 20:01:26.968  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-08 20:01:26.988  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interfaces.
+2021-06-08 20:01:27.183  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-06-08 20:01:27.183  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-08 20:01:27.183  INFO 8500 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-08 20:01:27.214  INFO 8500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/cloud]  : Initializing Spring embedded WebApplicationContext
+2021-06-08 20:01:27.214  INFO 8500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 455 ms
+2021-06-08 20:01:27.270  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-06-08 20:01:27.286  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-06-08 20:01:27.294  INFO 8500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-08 20:01:27.298  INFO 8500 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-06-08 20:01:27.325  INFO 8500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-08 20:01:27.325  INFO 8500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-08 20:01:27.367  WARN 8500 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-08 20:01:27.447  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/css/**'] with []
+2021-06-08 20:01:27.447  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/js/**'] with []
+2021-06-08 20:01:27.447  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/pics/**'] with []
+2021-06-08 20:01:27.447  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/assets/**'] with []
+2021-06-08 20:01:27.463  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@65e881ee, org.springframework.security.web.context.SecurityContextPersistenceFilter@236f5f03, org.springframework.security.web.header.HeaderWriterFilter@375724ec, org.springframework.security.web.authentication.logout.LogoutFilter@7518d935, com.ex.filter.ValidateCodeFilter@5d7dfc0b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@776fe38d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@ac2ef9f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7eff915a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7001ba2d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ccd517c, org.springframework.security.web.session.SessionManagementFilter@78d48bf5, org.springframework.security.web.access.ExceptionTranslationFilter@7db40f23, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5cc7dda5]
+2021-06-08 20:01:27.579  INFO 8500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-08 20:01:27.593  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path '/cloud'
+2021-06-08 20:01:27.597  INFO 8500 --- [restartedMain] com.ex.CloudByLearnApplication           : Started CloudByLearnApplication in 0.886 seconds (JVM running for 354.621)
+2021-06-08 20:01:27.598  INFO 8500 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-08 20:01:27.600  INFO 8500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-06-08 20:01:27.600  INFO 8500 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-08 20:01:28.101  INFO 8500 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/cloud]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-08 20:01:28.102  INFO 8500 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-08 20:01:28.105  INFO 8500 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-06-08 20:01:28.999  INFO 8500 --- [Thread-65] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-08 20:01:29.401  INFO 8500 --- [Thread-65] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-08 20:01:29.401  INFO 8500 --- [Thread-65] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-06-08 20:01:29.408  INFO 8500 --- [Thread-65] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2021-06-08 20:01:29.618  INFO 8500 --- [restartedMain] com.ex.CloudByLearnApplication           : Starting CloudByLearnApplication using Java 1.8.0_291 on DESKTOP-BJUIAVU with PID 8500 (D:\JetBrains\java\CloudByLearn\target\classes started by Exception in D:\JetBrains\java\CloudByLearn)
+2021-06-08 20:01:29.618  INFO 8500 --- [restartedMain] com.ex.CloudByLearnApplication           : No active profile set, falling back to default profiles: default
+2021-06-08 20:01:29.771  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-08 20:01:29.782  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2021-06-08 20:01:29.927  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-06-08 20:01:29.931  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-08 20:01:29.931  INFO 8500 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-08 20:01:29.950  INFO 8500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/cloud]  : Initializing Spring embedded WebApplicationContext
+2021-06-08 20:01:29.950  INFO 8500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 332 ms
+2021-06-08 20:01:29.981  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2021-06-08 20:01:29.997  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2021-06-08 20:01:30.001  INFO 8500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-08 20:01:30.009  INFO 8500 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-06-08 20:01:30.024  INFO 8500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-08 20:01:30.024  INFO 8500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-08 20:01:30.056  WARN 8500 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-08 20:01:30.118  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/css/**'] with []
+2021-06-08 20:01:30.118  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/js/**'] with []
+2021-06-08 20:01:30.118  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/pics/**'] with []
+2021-06-08 20:01:30.118  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/assets/**'] with []
+2021-06-08 20:01:30.126  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@59392776, org.springframework.security.web.context.SecurityContextPersistenceFilter@49af3b4c, org.springframework.security.web.header.HeaderWriterFilter@4f3e0f16, org.springframework.security.web.authentication.logout.LogoutFilter@3934439c, com.ex.filter.ValidateCodeFilter@3419aa9e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7c21e03c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@490edf97, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e7774e2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@418e8285, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3d8c23f1, org.springframework.security.web.session.SessionManagementFilter@223d5140, org.springframework.security.web.access.ExceptionTranslationFilter@6263932, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6bc748bf]
+2021-06-08 20:01:30.208  INFO 8500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-08 20:01:30.220  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path '/cloud'
+2021-06-08 20:01:30.223  INFO 8500 --- [restartedMain] com.ex.CloudByLearnApplication           : Started CloudByLearnApplication in 0.636 seconds (JVM running for 357.249)
+2021-06-08 20:01:30.223  INFO 8500 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-08 20:01:30.223  INFO 8500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-06-08 20:01:30.223  INFO 8500 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-08 20:01:30.484  INFO 8500 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/cloud]  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-08 20:01:30.485  INFO 8500 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-08 20:01:30.486  INFO 8500 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-06-08 20:04:57.861  INFO 8500 --- [Thread-72] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-08 20:04:58.353  INFO 8500 --- [Thread-72] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-08 20:04:58.353  INFO 8500 --- [Thread-72] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2021-06-08 20:04:58.361  INFO 8500 --- [Thread-72] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2021-06-08 20:04:58.705  INFO 8500 --- [restartedMain] com.ex.CloudByLearnApplication           : Starting CloudByLearnApplication using Java 1.8.0_291 on DESKTOP-BJUIAVU with PID 8500 (D:\JetBrains\java\CloudByLearn\target\classes started by Exception in D:\JetBrains\java\CloudByLearn)
+2021-06-08 20:04:58.705  INFO 8500 --- [restartedMain] com.ex.CloudByLearnApplication           : No active profile set, falling back to default profiles: default
+2021-06-08 20:04:58.943  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-08 20:04:58.958  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+2021-06-08 20:04:59.154  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-06-08 20:04:59.154  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-08 20:04:59.154  INFO 8500 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-08 20:04:59.189  INFO 8500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/cloud]  : Initializing Spring embedded WebApplicationContext
+2021-06-08 20:04:59.189  INFO 8500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 481 ms
+2021-06-08 20:04:59.236  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2021-06-08 20:04:59.255  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2021-06-08 20:04:59.259  INFO 8500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-08 20:04:59.271  INFO 8500 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-06-08 20:04:59.294  INFO 8500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-08 20:04:59.294  INFO 8500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-08 20:04:59.337  WARN 8500 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-08 20:04:59.423  WARN 8500 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileController': Unsatisfied dependency expressed through field 'hdfsService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.ex.service.HdfsService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-06-08 20:04:59.423  INFO 8500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-08 20:04:59.423  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2021-06-08 20:04:59.443  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2021-06-08 20:04:59.447  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-06-08 20:04:59.454  INFO 8500 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-06-08 20:04:59.521 ERROR 8500 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field hdfsService in com.ex.controller.FileController required a bean of type 'com.ex.service.HdfsService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.ex.service.HdfsService' in your configuration.
+
+2021-06-08 20:05:01.374  INFO 8500 --- [restartedMain] com.ex.CloudByLearnApplication           : Starting CloudByLearnApplication using Java 1.8.0_291 on DESKTOP-BJUIAVU with PID 8500 (D:\JetBrains\java\CloudByLearn\target\classes started by Exception in D:\JetBrains\java\CloudByLearn)
+2021-06-08 20:05:01.374  INFO 8500 --- [restartedMain] com.ex.CloudByLearnApplication           : No active profile set, falling back to default profiles: default
+2021-06-08 20:05:01.553  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-08 20:05:01.565  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2021-06-08 20:05:01.737  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-06-08 20:05:01.741  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-08 20:05:01.741  INFO 8500 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-08 20:05:01.760  INFO 8500 --- [restartedMain] o.a.c.c.C.[.[localhost].[/cloud]         : Initializing Spring embedded WebApplicationContext
+2021-06-08 20:05:01.764  INFO 8500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 386 ms
+2021-06-08 20:05:01.799  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2021-06-08 20:05:01.819  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2021-06-08 20:05:01.823  INFO 8500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-08 20:05:01.830  INFO 8500 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-06-08 20:05:01.846  INFO 8500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-08 20:05:01.846  INFO 8500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-08 20:05:01.897  WARN 8500 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-08 20:05:01.986  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/css/**'] with []
+2021-06-08 20:05:01.987  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/js/**'] with []
+2021-06-08 20:05:01.987  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/pics/**'] with []
+2021-06-08 20:05:01.987  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/assets/**'] with []
+2021-06-08 20:05:02.035  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3d7ff05a, org.springframework.security.web.context.SecurityContextPersistenceFilter@15c4e519, org.springframework.security.web.header.HeaderWriterFilter@39824c8f, org.springframework.security.web.authentication.logout.LogoutFilter@2124a882, com.ex.filter.ValidateCodeFilter@7481b49b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@787864a4, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@64997d21, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@202f354f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@be2f3f1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@8cf5a36, org.springframework.security.web.session.SessionManagementFilter@4b0a714d, org.springframework.security.web.access.ExceptionTranslationFilter@79b98cf2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d2e68cd]
+2021-06-08 20:05:02.161  INFO 8500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-08 20:05:02.177  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path '/cloud'
+2021-06-08 20:05:02.181  INFO 8500 --- [restartedMain] com.ex.CloudByLearnApplication           : Started CloudByLearnApplication in 0.834 seconds (JVM running for 569.207)
+2021-06-08 20:05:02.181  INFO 8500 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-08 20:05:02.184  INFO 8500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-06-08 20:05:02.184  INFO 8500 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-08 20:05:03.571  INFO 8500 --- [http-nio-80-exec-1] o.a.c.c.C.[.[localhost].[/cloud]         : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-08 20:05:03.572  INFO 8500 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-08 20:05:03.573  INFO 8500 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-06-08 20:10:44.123  INFO 8500 --- [Thread-86] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-08 20:10:44.542  INFO 8500 --- [Thread-86] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-08 20:10:44.542  INFO 8500 --- [Thread-86] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2021-06-08 20:10:44.550  INFO 8500 --- [Thread-86] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2021-06-08 20:10:44.827  INFO 8500 --- [restartedMain] com.ex.CloudByLearnApplication           : Starting CloudByLearnApplication using Java 1.8.0_291 on DESKTOP-BJUIAVU with PID 8500 (D:\JetBrains\java\CloudByLearn\target\classes started by Exception in D:\JetBrains\java\CloudByLearn)
+2021-06-08 20:10:44.831  INFO 8500 --- [restartedMain] com.ex.CloudByLearnApplication           : No active profile set, falling back to default profiles: default
+2021-06-08 20:10:45.046  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-08 20:10:45.062  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interfaces.
+2021-06-08 20:10:45.269  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-06-08 20:10:45.272  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-08 20:10:45.272  INFO 8500 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-08 20:10:45.300  INFO 8500 --- [restartedMain] o.a.c.c.C.[.[localhost].[/cloud]         : Initializing Spring embedded WebApplicationContext
+2021-06-08 20:10:45.300  INFO 8500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 469 ms
+2021-06-08 20:10:45.343  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2021-06-08 20:10:45.362  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2021-06-08 20:10:45.366  INFO 8500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-08 20:10:45.374  INFO 8500 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-06-08 20:10:45.397  INFO 8500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-08 20:10:45.397  INFO 8500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-08 20:10:45.436  WARN 8500 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-08 20:10:45.518  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/css/**'] with []
+2021-06-08 20:10:45.518  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/js/**'] with []
+2021-06-08 20:10:45.518  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/pics/**'] with []
+2021-06-08 20:10:45.518  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/assets/**'] with []
+2021-06-08 20:10:45.526  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@726771bc, org.springframework.security.web.context.SecurityContextPersistenceFilter@47a42c4c, org.springframework.security.web.header.HeaderWriterFilter@61dd1bcb, org.springframework.security.web.authentication.logout.LogoutFilter@c817f7, com.ex.filter.ValidateCodeFilter@7712af02, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3483567e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5bfb7d33, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@660a4eae, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6f0002e7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c070285, org.springframework.security.web.session.SessionManagementFilter@769fffc2, org.springframework.security.web.access.ExceptionTranslationFilter@2646d63, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7f4f47a5]
+2021-06-08 20:10:45.616  INFO 8500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-08 20:10:45.628  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path '/cloud'
+2021-06-08 20:10:45.632  INFO 8500 --- [restartedMain] com.ex.CloudByLearnApplication           : Started CloudByLearnApplication in 0.843 seconds (JVM running for 912.658)
+2021-06-08 20:10:45.632  INFO 8500 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-08 20:10:45.632  INFO 8500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-06-08 20:10:45.632  INFO 8500 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-08 20:10:47.028  INFO 8500 --- [Thread-99] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2021-06-08 20:10:47.460  INFO 8500 --- [Thread-99] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-08 20:10:47.460  INFO 8500 --- [Thread-99] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2021-06-08 20:10:47.468  INFO 8500 --- [Thread-99] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2021-06-08 20:10:47.648  INFO 8500 --- [restartedMain] com.ex.CloudByLearnApplication           : Starting CloudByLearnApplication using Java 1.8.0_291 on DESKTOP-BJUIAVU with PID 8500 (D:\JetBrains\java\CloudByLearn\target\classes started by Exception in D:\JetBrains\java\CloudByLearn)
+2021-06-08 20:10:47.648  INFO 8500 --- [restartedMain] com.ex.CloudByLearnApplication           : No active profile set, falling back to default profiles: default
+2021-06-08 20:10:47.788  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-08 20:10:47.800  INFO 8500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2021-06-08 20:10:47.950  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-06-08 20:10:47.950  INFO 8500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-08 20:10:47.950  INFO 8500 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-06-08 20:10:47.972  INFO 8500 --- [restartedMain] o.a.c.c.C.[.[localhost].[/cloud]         : Initializing Spring embedded WebApplicationContext
+2021-06-08 20:10:47.972  INFO 8500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 320 ms
+2021-06-08 20:10:48.004  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2021-06-08 20:10:48.020  INFO 8500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2021-06-08 20:10:48.023  INFO 8500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-08 20:10:48.028  INFO 8500 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-06-08 20:10:48.046  INFO 8500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-08 20:10:48.046  INFO 8500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-08 20:10:48.075  WARN 8500 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-08 20:10:48.140  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/css/**'] with []
+2021-06-08 20:10:48.141  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/js/**'] with []
+2021-06-08 20:10:48.141  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/pics/**'] with []
+2021-06-08 20:10:48.141  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/assets/**'] with []
+2021-06-08 20:10:48.149  INFO 8500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@32ac5c55, org.springframework.security.web.context.SecurityContextPersistenceFilter@5852b879, org.springframework.security.web.header.HeaderWriterFilter@5f68c000, org.springframework.security.web.authentication.logout.LogoutFilter@54f7b3a4, com.ex.filter.ValidateCodeFilter@57d9c0fa, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@10bbf67f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@40964e2b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4230c712, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5bc17794, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7788fe3e, org.springframework.security.web.session.SessionManagementFilter@5e438d71, org.springframework.security.web.access.ExceptionTranslationFilter@65dfe4ed, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2a9b26a9]
+2021-06-08 20:10:48.234  INFO 8500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-08 20:10:48.244  INFO 8500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path '/cloud'
+2021-06-08 20:10:48.249  INFO 8500 --- [restartedMain] com.ex.CloudByLearnApplication           : Started CloudByLearnApplication in 0.624 seconds (JVM running for 915.274)
+2021-06-08 20:10:48.250  INFO 8500 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2021-06-08 20:10:48.251  INFO 8500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-06-08 20:10:48.251  INFO 8500 --- [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-06-08 20:10:48.622  INFO 8500 --- [http-nio-80-exec-1] o.a.c.c.C.[.[localhost].[/cloud]         : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-08 20:10:48.623  INFO 8500 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-08 20:10:48.624  INFO 8500 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

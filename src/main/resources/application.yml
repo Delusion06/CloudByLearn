@@ -1,0 +1,44 @@
+server:
+  port: 80
+  session.timeout: 60000
+  servlet.contextpath: /cloud
+
+
+
+logging:
+  level:
+    root: info      #默认级别
+    org:
+      springframework: info
+    com.yc: info
+
+  file:
+    path: ./logs
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.70.128:3306/clouddisk?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 123456
+
+  jpa:
+    show-sql: true
+    database: mysql
+    properties:
+      hibernate:
+        format-sql: true
+
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+
+hdfs:
+  path: hdfs://node1:8020
+  username: root
+
+
+swagger:
+  enabled: true
+

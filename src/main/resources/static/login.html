@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <form action="doLogin.action" method="post">
+    <!--要与配置类的属性名一致-->
+    用户名:<input type="text" name="uname">
+    密码:<input type="text" name="upwd">
+    <input type="text" placeholder="请输入验证码"
+           id="yzm" name="imageCode"/>
+    <!--                    验证码与后台对接-->
+    <img src="verifyCodeServlet" width="200px" />
+    <input type="submit" value="登录">
+  </form>
+
+</body>
+</html>
